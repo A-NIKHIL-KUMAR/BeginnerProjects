@@ -1,0 +1,229 @@
+.page_sections {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
+	flex-direction: column;
+}
+
+.page1 {
+	/*background-color: yellowgreen;*/
+	display: block;
+	width: 90%;
+	padding: 5%;
+}
+
+h1 {
+	text-align: center;
+	font-family: lato;
+	font-size: 5em;
+}
+
+h3 {
+	text-align: center;
+	font-family: lato;
+	font-size: 1.5em;
+	font-weight: 400;
+}
+
+.buttons1 {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: baseline;
+	align-content: baseline;
+	/*background-color: #000000;*/
+	overflow: auto;
+	flex-direction: row;
+	font-family: lato;
+	font-size: 1em;
+	font-weight: 600;
+	padding: 3vh;
+	letter-spacing: 0.1vw;
+	border-radius: 1vw;
+	border: 0;
+	margin: 2vh;
+	cursor: pointer;
+}
+
+.buttons1 .b1 {
+	color: #000000;
+	background-color: #FFDE59;
+	padding: 3vh;
+	border: 2px solid #FFDE59;
+}
+
+.buttons1 .b2 {
+	color: #FFDE59;
+	background-color: #ffffff;
+	padding: 3vh;
+	border: 2px solid #FFDE59;
+}
+
+
+/* page 2*/
+
+.page2 {
+	display: block;
+	padding: 5%;
+}
+
+h2 {
+	text-align: center;
+	font-family: lato;
+	font-size: 2em;
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 14%;
+	/*padding-right: 15%;*/
+	/*    margin-left: -8px;
+    margin-right: -8px;*/
+}
+
+.cards__item1 {
+	flex-basis: 25%;
+	padding: 3vw;
+	background-color: #DAEEE8;
+	margin: 1vw;
+	border-radius: 1vw;
+}
+
+.cards__item2 {
+	flex-basis: 25%;
+	padding: 3vw;
+	background-color: #AFE2E0;
+	margin: 1vw;
+	border-radius: 1vw;
+}
+
+.cards_p {
+	padding: 1vh;
+	text-align: center;
+	font-family: lato;
+	font-size: 1.3em;
+}
+
+
+/* page 3*/
+
+.page3 {
+	display: block;
+	padding: 5%;
+}
+
+.page3 .cards {
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 11%;
+}
+
+.cards__item3 {
+	flex-basis: 27%;
+	padding: 2vw;
+	margin: 1vw;
+	border-radius: 1vw;
+}
+
+.page3 .cards_p {
+	padding: 1vh;
+	text-align: center;
+	font-family: lato;
+	border-style: dotted;
+	border-color: #A5B4E0;
+	font-size: 1em;
+	line-height: 4vh;
+}
+
+
+/* page4 */
+
+.page4 {
+	display: block;
+	padding: 5%;
+}
+
+.steps {
+	padding: 3%;
+}
+
+h4 {
+	text-align: center;
+	font-family: lato;
+	font-size: 1.5em;
+	font-weight: 700;
+	color: #FFDE59;
+}
+
+h5 {
+	text-align: center;
+	font-family: lato;
+	font-size: 1em;
+	font-weight: 500;
+}
+
+
+/* page5 */
+
+.page5 {
+	display: block;
+	padding: 5%;
+}
+
+.page5 .cards_p {
+	padding: 1vh;
+	text-align: center;
+	background-color: #FFDE59;
+	font-family: lato;
+	font-size: 1em;
+	line-height: 4vh;
+}
+
+
+/* page6 */
+
+.page6 {
+	display: block;
+	padding: 5%;
+}
+
+
+/* page7 */
+
+.page7 {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: baseline;
+	flex-direction: row;
+	background-color: #FFDE59;
+	width: 100%;
+}
+
+.page7 div {
+	padding: 2%;
+}
+
+h6 {
+	font-family: lato;
+	font-size: 1.2em;
+	font-weight: 500;
+}
+
+.page7 ul li {
+	font-size: 1em;
+	font-family: lato;
+	font-weight: 500;
+	line-height: 4vh;
+	opacity: 0.7;
+}
+
+/* page_footer */
+
+.page_footer {
+	text-align: center;
+}

@@ -1,0 +1,22 @@
+        .content {
+            display: flex;
+            flex-direction: row;
+        }
+        .flex-left {
+            width: 15%;
+            height: 92em;
+        }
+
+        .flex-right {
+            width: 85%;
+            background-color: #1F2235 ;
+        }
+
+        .rows {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .section1-landing {
+            height: 40em;
+        }

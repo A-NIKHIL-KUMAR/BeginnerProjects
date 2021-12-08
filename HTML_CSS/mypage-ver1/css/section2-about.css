@@ -1,0 +1,46 @@
+#section2-about {
+    padding: 6% 4%;
+}
+
+#section2-about .about {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+            
+}
+
+#section2-about h2 {
+    font-size: 2.5em;
+    opacity: 0.8;
+    color: #FF4A57;
+    font-weight: 700;
+    letter-spacing: 0.2vh;
+    
+}
+
+.my_story {
+    width: 75%;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: navajowhite;
+    opacity: 0.8;
+    line-height: 1.5em;
+    font-family: Segoe UI;
+            
+}
+
+.ank  {
+    width: 20em;
+    height: 20em;
+    padding-left: 3%;
+    opacity: 0.5;
+    filter: blur(3px);
+}
+
+.ank:hover {
+    opacity: 100;
+    filter: blur(0px);
+    transition: 0.9s;
+}
+
+

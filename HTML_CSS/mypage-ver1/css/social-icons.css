@@ -1,0 +1,26 @@
+.social-icons {
+	margin: 0;
+	padding: 18em 2em;
+  	width: 2.5em;
+  	background-color: transparent;
+  	/*background-color: #1F2235;*/
+  	position: fixed;
+}
+
+.social-icons a {
+  display: flex;
+  font-size: 1.3em;
+  color: navajowhite;
+  /*color: antiquewhite;*/
+  padding: 16px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  display: flex;
+  color: #FF4A57;
+  padding: 16px;
+  font-size: 1.8em;
+  text-shadow:5px 5px 10px #FF4A57;
+  transition: 0.5s;
+}

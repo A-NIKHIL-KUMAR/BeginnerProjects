@@ -1,0 +1,29 @@
+/* layouting basic page structure using css */
+
+body {
+	margin: 0;
+	background-color: #1F2235;
+	text-decoration: none;
+}
+
+#container {
+	display: flex;
+	flex-direction: column;
+}
+
+.page-header {
+	background-color: #1F2235;
+	
+}
+
+.page-main {
+	/*background-color: yellowgreen;*/
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+	/*height: 92em;*/
+}
+
+.page-footer {
+	background-color: #1F2235 ;
+	height: 3em;
+}
